@@ -18,13 +18,15 @@ public class UnboundedKnapsackTopDown {
             }
         }
 
-        int res = unboundedKnapsackTopDown.unbounded_knapsack_memoization(val,wt,W,val.length);
+        int res = unboundedKnapsackTopDown.unbounded_knapsack_TopDown(val,wt,W,val.length);
 
         System.out.println("The Max profit is  = "+res);
 
     }
 
-    public int unbounded_knapsack_memoization(int[] val,int[] wt, int W, int n){
+    // changes only in the name of the function 
+
+    public int unbounded_knapsack_TopDown(int[] val,int[] wt, int W, int n){
 
         for(int i =1;i<n+1;i++){
             for(int j=1;j<W+1;j++){
