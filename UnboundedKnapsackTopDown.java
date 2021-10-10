@@ -24,7 +24,7 @@ public class UnboundedKnapsackTopDown {
 
     }
 
-    // changes only in the name of the function 
+    // changes only in the name of the function
 
     public int unbounded_knapsack_TopDown(int[] val,int[] wt, int W, int n){
 
