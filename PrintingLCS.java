@@ -3,8 +3,8 @@ package com.company;
 public class PrintingLCS {
     static int[][] t;
     public static void main(String[] args) {
-        String str1 = "acbcf";
-        String str2 = "abcdaf";
+        String str1 = "aacdebe";
+        String str2 = "ebedcaa";
         int m = str1.length();
         int n = str2.length();
 
