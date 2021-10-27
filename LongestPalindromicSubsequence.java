@@ -4,7 +4,7 @@ public class LongestPalindromicSubsequence {
     static int[][] t;
 
     public static void main(String[] args) {
-        StringBuilder str = new StringBuilder("aacdebe");
+        StringBuilder str = new StringBuilder("agbcba");
         int m = str.length();
         // longest common palindromic sequence
         int lcp = LCS(str.toString(),str.reverse().toString(),m);
