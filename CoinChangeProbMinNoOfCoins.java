@@ -23,9 +23,9 @@ public class CoinChangeProbMinNoOfCoins {
                 }
             }
         }
-        int i =1;
+        int i =0;
             for(int j=1;j<sum+1;j++){
-            if(coin[i]%j==0){
+            if(j%coin[i]==0){
                 objCoin.t[i][j] =j/coin[i];
             }else
                 objCoin.t[i][j] = Integer.MAX_VALUE-1;
